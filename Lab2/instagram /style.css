@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 100px 77px 40px 77px;
+  padding-bottom: 60px;
+}
+
+i {
+  margin: 20px;
+}
+
+.telephone {
+  position: relative;
+}
+
+.phone-image {
+  position: relative;
+  width: 465px;
+  height: 630px;
+}
+
+.login-part {
+  margin-top: 14px;
+  padding: 20px 1px;
+  border: 1px solid #e8e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+}
+
+form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  padding: 10px;
+  background-color: rgb(250, 250, 250);
+  height: 55px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+  margin: 2px 50px;
+  width: 268px;
+  height: 38px;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  height: 32px;
+  color: #fff;
+  width: 268px;
+  border-radius: 9px;
+  border-width: 0;
+  background-color: #4cb5f9;
+  margin-top: 12px;
+}
+
+.line-or-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 268px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.line-or-line p {
+  color: rgb(115, 115, 115);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.left-line {
+  margin-top: 12px;
+  border-top: 1px solid rgb(200, 198, 198);
+  max-width: 350px;
+  line-height: 18px;
+  font-size: 14px;
+  height: 1px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.right-line {
+  padding-bottom: 10px;
+  margin-top: 12px;
+  border-top: 1px solid rgb(200, 198, 198);
+  max-width: 350px;
+  font-size: 14px;
+  height: 1px;
+  width: 100%;
+}
+
+.login-facebook {
+  display: flex;
+  padding: 20px 30px 30px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 149, 246);
+  cursor: pointer;
+}
+
+svg path {
+  width: 20px;
+  height: 20px;
+}
+
+.login-facebook a {
+  color: inherit;
+}
+
+.login-facebook a:hover {
+  color: #1877f2;
+}
+
+.sign-up {
+  font-size: 14px;
+  padding: 25px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #e8e6e6;
+  color: black;
+  margin-bottom: 10px;
+  max-width: 350px;
+}
+
+.sign-up a {
+  font-weight: 500;
+  color: rgb(0, 149, 246);
+}
+
+#forgot-password {
+  font-size: 14px;
+}
+
+.app-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.get-apps {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+
+.get-apps span {
+  margin: 15px;
+}
+
+.app-logos a:first-child img {
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.app-logos a:last-child img {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 12px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(115, 115, 115);
+}
+
+.footer ul {
+  gap: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: inherit;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer select {
+  color: inherit;
+  background-color: #fff;
+  border-width: 0px;
+}
+
+option {
+  color: black;
+}
+
+.swap-images {
+  position: absolute;
+  right: 55px;
+  top: 24px;
+  width: 255px;
+  height: 540px;
+  opacity: 0;
+  animation: fadeAnimation 16s infinite;
+}
+
+.swap-images:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.swap-images:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.swap-images:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.swap-images:nth-child(4) {
+  animation-delay: 12s;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .telephone {
+    display: none;
+  }
+}
