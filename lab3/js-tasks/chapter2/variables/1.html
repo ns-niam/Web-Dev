@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        login = prompt("Login: ", "");
+        if (login == "Admin"){
+            password = prompt("Password: ", "");
+            if (password == "TheMaster") {
+                alert("Welcome");
+            } else if (password === "" || password === null) {
+                alert("Cancelled");
+            } else {
+                alert("Wrond password")
+            }
+        } else if (login === "" || login === null) {
+            alert("Cancelled");
+        } else {
+            alert("I dont know you");
+        }
+
+
+    </script>
+</body>
+</html>
