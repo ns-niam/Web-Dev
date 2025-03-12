@@ -1,0 +1,16 @@
+<div class="details">
+    <img [src]="productInfo?.image" [alt]="productInfo?.title" class="product-image" />
+        <div class="info">
+        <h2 class="product-title">{{ productInfo?.title }}</h2>
+       
+       <span class="product-description">{{productInfo?.description}}</span>
+       
+     <div class="product-rating">
+      <span>Rating: {{ productInfo?.rating }}</span>
+      <button  (click)="addLike()"  class="likes"   >♥ {{ productInfo?.likes }}</button>
+    </div>
+    <p class="product-price">{{ productInfo?.price }} ₸</p>
+    <a class="kaspi-link" [href]="productInfo?.link">Check on Kaspi.kz</a>
+     </div>
+    <a class="close-details" [routerLink]="['../']">Close details</a>
+</div>
