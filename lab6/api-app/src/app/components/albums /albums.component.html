@@ -1,0 +1,15 @@
+<div class="album-list">
+  @if (albums.length) { @for (album of albums; track album.id) {
+  <div class="album-item">
+    <p>User ID: {{ album.userId }}</p>
+    <p>Album ID: {{ album.id }}</p>
+    <p>Title: {{ album.title }}</p>
+    <div class="buttons">
+      <button (click)="delete(album.id)">Delete</button>
+      <button [routerLink]="[album.id]">Details</button>
+    </div>
+  </div>
+  } } @else {
+  <p class="loading">Data is loading...</p>
+  }
+</div>
