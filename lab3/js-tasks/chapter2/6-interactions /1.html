@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        let agreement = confirm("Are you ok with sharing personal info?");
+        if (agreement){
+            let age = prompt("How old are you?", 0);
+            let name = prompt("What is your name?", "");
+            alert(`Hello, ${name}. You are already ${age} years old wth`);
+        }
+    </script>
+</body>
+</html>
