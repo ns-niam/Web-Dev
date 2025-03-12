@@ -1,0 +1,21 @@
+.photos-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 50px;
+  flex-wrap: wrap;
+
+  img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin: 5px;
+  }
+
+  img:hover {
+    transform: translateY(-4px);
+  }
+}
