@@ -1,0 +1,39 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  line-height: 100px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: #555151;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000205;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #333435;
+}
