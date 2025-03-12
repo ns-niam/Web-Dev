@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+main ul {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main span {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+main ul li {
+  display: flex;
+  border: 1px solid #70b835;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(112, 184, 53, 0.2);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(112, 184, 53, 0.3);
+  }
+}
+
+main a {
+  color : inherit;
+  font-size: 20px;
+}
