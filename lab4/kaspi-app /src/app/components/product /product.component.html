@@ -1,0 +1,29 @@
+<div class="product-card">
+  <img [src]="product.image" [alt]="product.title" />
+  <h4>{{ product.title }}</h4>
+  <span class="description">{{ product.description }} </span>
+  <div class="rat-pr">
+    <span class="rating">Rating: {{ product.rating }}</span>
+    <span class="price">{{ product.price }} ₸</span>
+  </div>
+  <div class="kaspi-link">
+    <a [href]="product.link">Посмотреть на Kaspi</a>
+  </div>
+  <div class="share-buttons">
+    <a
+      [href]="getWhatsAppLink(product.link)"
+      target="_blank"
+      class="whatsapp-btn"
+    >
+      <i class="fa fa-whatsapp"></i> Поделиться в WhatsApp
+    </a>
+
+    <a
+      [href]="getTelegramLink(product.link)"
+      target="_blank"
+      class="telegram-btn"
+    >
+      <i class="fa fa-telegram"></i> Поделиться в Telegram
+    </a>
+  </div>
+</div>
