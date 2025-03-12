@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Smartphone Apple iPhone 13 128GB Black",
+      "price": 270359,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium",
+      "rating": 4.9,
+      "description": "Apple iPhone 13 features a 6.1-inch Super Retina XDR display with incredibly high pixel density—photos, videos, and text appear strikingly sharp. Thanks to the reduced TrueDepth camera area, there is now more screen space for images.",
+      "link": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/?c=750000000",
+      "category": "phones",
+      "likes": 55
+    },
+    {
+      "id": "2",
+      "title": "Smartphone Apple iPhone 16 Pro Max 256GB Black",
+      "price": 676268,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hcf/h69/87295489343518.png?format=gallery-medium",
+      "rating": 5,
+      "description": "The flagship iPhone 16 Pro Max incorporates the best features of a modern gadget. It is the most powerful device in the Apple iPhone lineup, with a large display, outstanding performance, and incredible ergonomics. The iPhone 16 Pro Max is a true titan in its family. This flagship model features ultra-thin bezels, an ergonomic design, and high impact and water resistance. It is enhanced with a next-generation Ceramic Shield front panel and a textured glass back panel with a matte finish. The series includes several smartphone variants—1TB, 256GB, and 512GB models—available in black, titanium, white, and a new soft Desert Titanium shade.",
+      "link": "https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-chernyi-123787551/?c=750000000",
+      "category": "phones",
+      "likes": 13
+    },
+    {
+      "id": "3",
+      "title": "Smartphone Realme Note 50 3GB/64GB Black",
+      "price": 35298,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hcb/h7e/85063476838430.jpg?format=gallery-medium",
+      "rating": 4.9,
+      "description": "A flagship smartphone with a powerful camera and high-performance processor.",
+      "link": "https://kaspi.kz/shop/p/realme-note-50-3-gb-64-gb-chernyi-116346407/?c=750000000",
+      "category": "phones",
+      "likes": 13
+    },
+    {
+      "id": "4",
+      "title": "Smartphone Samsung Galaxy A55 5G 8GB/256GB Dark Blue",
+      "price": 89999,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h21/h36/85428899414046.png?format=gallery-medium",
+      "rating": 4.8,
+      "description": "Samsung has introduced the new mid-range A-series smartphone—Galaxy A55, which is currently the top model in the lineup. It has received significant improvements in both hardware and software, including a powerful processor with AMD graphics. It is currently the only Samsung smartphone with seamless update technology—no need to wait for Android updates. The A55 offers an affordable price, an appealing design combining glass and metal, and nearly flagship-level specs, which are more common among Chinese competitors.",
+      "link": "https://kaspi.kz/shop/p/samsung-galaxy-a55-5g-8-gb-256-gb-temno-sinii-117420207/?c=750000000",
+      "category": "phones",
+      "likes": 10
+    },
+    {
+      "id": "5",
+      "title": "Smartphone OPPO A78 8GB/256GB Black",
+      "price": 71244,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/hc0/h02/83108938809374.jpg?format=gallery-medium",
+      "rating": 4.9,
+      "description": "The smartphone features an AMOLED screen with FHD+ resolution, displaying detailed images with natural color reproduction. Its intelligent adaptive brightness ensures comfortable video watching and multimedia viewing without eye strain in different lighting conditions. The Qualcomm Snapdragon 680 octa-core processor and 8GB RAM provide optimal performance for file editing, resource-intensive gaming, and daily tasks. The Dynamic Computing Engine technology ensures smooth and stable device operation when running background applications.",
+      "link": "https://kaspi.kz/shop/p/oppo-a78-8-gb-256-gb-chernyi-112808573/?c=750000000",
+      "category": "phones",
+      "likes": 5
+    },
+    {
+      "id": "6",
+      "title": "Snickers Super Chocolate Bar Milk 80g",
+      "price": 299,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/pac/p4e/11814886.jpg?format=gallery-medium",
+      "rating": 5,
+      "description": "A chocolate bar that uniquely combines natural chocolate and caramel! Perfect for a balanced and tasty snack!",
+      "link": "https://kaspi.kz/shop/p/snickers-super-shokoladnyi-batonchik-molochnyi-80-g-102153456/?c=750000000",
+      "category": "chocolates",
+      "likes": 0
+    },
+    {
+      "id": "7",
+      "title": "Rahat Kazakhstan Dark Chocolate Bar 100g",
+      "price": 735,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/h21/h90/70365637279774.jpg?format=gallery-medium",
+      "rating": 5,
+      "description": "Exceptionally delicious Kazakhstan milk chocolate with vanilla aroma, made from selected cocoa beans using classic technology at the Rahat chocolate factory. Natural chocolate will energize you and bring joy all day long.",
+      "link": "https://kaspi.kz/shop/p/rahat-kazakhstan-shokoladnaja-plitka-temnyi-100-g-100221859/?c=750000000",
+      "category": "chocolates",
+      "likes": 0
+    },
+    {
+      "id": "8",
+      "title": "Twix Xtra Chocolate Bar Milk 82g",
+      "price": 299,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/pf9/p51/11814877.jpg?format=gallery-medium",
+      "rating": 4.9,
+      "description": "Twix chocolate bars feature crispy biscuits, thick caramel, and excellent milk chocolate. Enjoying tea with Twix in the company of colleagues, friends, or family is a great way to spend free time.",
+      "link": "https://kaspi.kz/shop/p/twix-xtra-shokoladnyi-batonchik-molochnyi-82-g-100222675/?c=750000000",
+      "category": "chocolates",
+      "likes": 0
+    },
+    {
+      "id": "9",
+      "title": "Alpen Gold with Hazelnuts Chocolate Bar Milk 80g",
+      "price": 499,
+      "image": "https://resources.cdn-kaspi.kz/img/m/p/pd8/pd7/10838150.jpg?format=gallery-medium",
+      "rating": 4.9,
+      "description": "A refined combination of delicate milk chocolate and crunchy hazelnut pieces. Each bite of this chocolate is a true delight for your taste buds. The rich milk chocolate taste blends with the natural aroma and texture of hazelnuts, creating a unique taste experience. This chocolate is a perfect companion for a cup of hot coffee or a delightful treat for friends and loved ones.",
+      "link": "https://kaspi.kz/shop/p/alpen-gold-s-fundukom-shokoladnaja-plitka-molochnyi-80-g-130759145/?c=750000000",
+      "category": "chocolates",
+      "likes": 0
+    }
+  ]
+}
