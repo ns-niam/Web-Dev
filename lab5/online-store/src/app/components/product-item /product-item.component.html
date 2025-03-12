@@ -1,0 +1,17 @@
+<div class="product-card">
+  <img [src]="product.image" [alt]="product.title" class="product-image" />
+    <h2 class="product-title">{{ product.title }}</h2>
+    <p class="product-price">{{ product.price }} ₸</p>
+    <div class="product-rating">
+      <span>Rating: {{ product.rating }}</span>
+      <span class="likes">♥ {{ product.likes }}</span>
+    </div>
+    <div class="buttons">
+      <a [routerLink]="['/category/', product.category, product.id]" class="product-link"
+      >View Details</a
+    >
+    <a class="product-delete" (click)="onDelete()"><img src="..//public/delete.png" alt="delete button"></a
+  >
+    </div>
+
+</div>
