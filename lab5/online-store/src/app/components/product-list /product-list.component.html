@@ -1,0 +1,11 @@
+<img class="back-button" [routerLink]="['/']" src="https://www.svgrepo.com/show/18507/back-button.svg">
+@if (products.length > 0) {
+<div class="product-list">
+  @for (product of products; track product.id) {
+  <app-product-item (deleteProduct)="deleteProductFromList($event)" [product]="product"></app-product-item>
+  }
+</div>
+}
+@else {
+  <h1>No products in this category</h1>
+}
