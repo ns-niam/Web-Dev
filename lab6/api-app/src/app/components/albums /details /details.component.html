@@ -1,0 +1,27 @@
+<div class="details">
+  <div class="album-item">
+    <button [routerLink]="['../']">Return</button>
+    <p>
+      User ID: @if (album?.userId) { {{ album?.userId }} } @else {
+      <span class="loading-skeleton"></span> }
+    </p>
+    <p>
+      Album ID: @if (album?.id) { {{ album?.id }} } @else {
+      <span class="loading-skeleton"></span> }
+    </p>
+    <p>
+      Title: @if (!isEditing) { @if (album?.title) {
+      {{ album?.title }}
+      } @else { <span class="loading-skeleton"></span> } } @else {
+      <input type="text" [formControl]="titleName" />
+      <button (click)="save()" class="save-button">Save</button>
+      }
+    </p>
+    <button (click)="onEdit()">Edit title</button>
+
+    <button [routerLink]="['photos']">Photos</button>
+  </div>
+  <div class="photos">
+    <router-outlet />
+  </div>
+</div>
