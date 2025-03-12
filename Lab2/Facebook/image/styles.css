@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  min-width: 50vh;
+  background: #f0f2f5;
+  padding: 72px 0 112px 0;
+}
+
+.footer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.info ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.info hr {
+  width: 100%;
+  max-width: 1000px;
+  margin: 5px 0;
+}
+
+.langs li {
+  margin-right: 10px;
+  padding: 4px 0;
+}
+
+.links li {
+  margin-right: 20px;
+  padding: 4px 0;
+}
+
+.langs ul li:first-child a {
+  pointer-events: none;
+  color: #737373;
+}
+
+#another-langs {
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+  color: #4b4f56;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+
+  transition: 0.2s ease;
+}
+
+#another-langs:hover {
+  text-decoration: none;
+  background-color: #f0eded;
+}
+
+.footer a {
+  color: #8a8d91;
+}
+
+.footer p {
+  color: #8a8d91;
+  margin-top: 20px;
+}
+
+.facebook-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 147.5px;
+}
+
+.facebook-text {
+  margin-bottom: 150px;
+}
+
+.facebook-text h2 {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.facebook-text img {
+  height: 106px;
+  margin-left: -29px;
+  margin-bottom: -13px;
+}
+
+form {
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  height: 55px;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.login-part {
+  margin-right: 10px;
+}
+
+#link-pages a {
+  font-weight: bold;
+  color: #000;
+}
+#link-pages a:hover {
+  text-decoration: underline;
+}
+
+#link-pages {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.login-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #1877f2;
+}
+
+.login-btn {
+  padding: 13px 0;
+  border-radius: 6px;
+  width: auto;
+  font-weight: 600;
+  font-size: 20px;
+  outline: none;
+  color: #fff;
+  background-color: #0866ff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #0579ed;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.login-link hr {
+  margin: 5px 0;
+}
+
+.rgstr {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rgstr-btn {
+  padding: 15px 18px;
+  background-color: #42b72a;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.063rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.rgstr-btn:hover {
+  background-color: #3ba626;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: #777;
+  font-size: 1.063rem;
+}
+
+input:focus::placeholder {
+  color: rgb(210, 205, 205);
+}
+
+@media (max-width: 900px) {
+  .facebook-page {
+    flex-direction: column;
+    text-align: center;
+  }
+  .facebook-text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .facebook-page h1 {
+    font-size: 3.5rem;
+  }
+  .facebook-page h2 {
+    font-size: 1.3rem;
+  }
+  form {
+    padding: 15px;
+  }
+}
