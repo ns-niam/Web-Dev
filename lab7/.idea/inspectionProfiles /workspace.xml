@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db010f83-4efe-4e0f-bd06-d8d57cf962e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/.idea/apps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/.idea/apps.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/.idea/dataSources/30034d38-1fd8-4200-920e-fc4722c44454.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/.idea/dataSources/30034d38-1fd8-4200-920e-fc4722c44454.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/category/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/category/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/lab8/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/lab8/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/apps/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/apps/product/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2efLJxgyX3ZCz5RRqEjOgPwf3SA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/abdussalamabdurakhimov/Desktop/code/webDevCode/Lab7",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db010f83-4efe-4e0f-bd06-d8d57cf962e6" name="Changes" comment="" />
+      <created>1712290617303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712290617303</updated>
+      <workItem from="1712290618355" duration="173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
