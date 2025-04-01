@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.venv
+*.env
+
+# Django secret key and environment variables
+.env
+*.env*
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Media / Static files
+media/
+staticfiles/
+static/
+
+# Migrations (optional, if you regenerate them)
+**/migrations/*
+!**/migrations/__init__.py
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git / CI
+*.orig
+.DS_Store
+Thumbs.db
