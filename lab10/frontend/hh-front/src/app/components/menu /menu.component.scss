@@ -1,0 +1,35 @@
+.welcome-section {
+    margin-top: 100px;
+    text-align: center;
+  
+    p {
+      font-size: 32px;
+      font-weight: 600;
+      color: #b71c1c;
+      margin-bottom: 30px;
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  
+      button {
+        background: red;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease;
+  
+        &:hover {
+          background: linear-gradient(to right, #b71c1c, #e57373);
+        }
+      }
+    }
+  }
+  
