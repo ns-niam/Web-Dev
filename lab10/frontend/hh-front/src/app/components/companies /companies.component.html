@@ -1,0 +1,13 @@
+<div class="company-list">
+    @if (companies.length > 0) {
+      @for (company of companies; track company.id) {
+        <div class="company-info">
+          <p>{{ company.name }}</p>
+          <button [routerLink]="['/companies', company.id]">info</button>
+        </div>
+      }
+    } @else {
+      <div>Loading...</div>
+    }
+  </div>
+  
