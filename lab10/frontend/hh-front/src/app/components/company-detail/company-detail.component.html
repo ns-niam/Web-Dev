@@ -1,0 +1,22 @@
+<div class="company-info">
+    @if (company) {
+      <div class="company-details">
+        <p class="company-name"> {{ company.name }}</p>
+        <p class="company-city">City: {{ company.city }}</p>
+        <p class="company-address">Address: {{ company.address }}</p>
+        @if (company.description) {
+            <p class="company-description">Description: {{ company.description }}</p>
+        } @else {
+            <p class="company-description">Description: None</p>
+        }
+        <div class="button-group">
+          <button [routerLink]="['vacancies']" class="btn btn-primary">Check vacancies</button>
+          <button [routerLink] = "['..//']" class="btn btn-secondary">Back</button>
+        </div>
+      </div>
+    }
+    @else {
+      <div class="loading">Loading...</div>
+    }
+  </div>
+  
