@@ -1,0 +1,26 @@
+.main-header {
+    height: 70px;
+    background: red; 
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      height: 100%;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        color: #ffffff;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  
