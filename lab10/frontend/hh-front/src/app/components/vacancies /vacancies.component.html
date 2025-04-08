@@ -1,0 +1,17 @@
+<div class="company-list">
+    @if (vacancies.length > 0) {
+        @for (vacancy of vacancies; track vacancy.id) {
+            <div class="vacancy-info">
+                <p>Vacancy: {{vacancy.name}}</p>
+                <p>Salary: {{vacancy.salary}}</p>
+                <p>Company: {{vacancy.company_name}}</p>
+                
+            </div>
+        }
+        <button [routerLink] = "['..//']">Back</button>
+    }
+    @else {
+        <div>Loading...</div>
+    }
+
+</div>
