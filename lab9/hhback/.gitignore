@@ -1,0 +1,51 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files and debug files
+*.log
+*.pot
+*.pid
+*.swp
+*.swo
+*.swn
+
+# Secret files and settings
+.env
+*.sqlite3
+db.sqlite3
+instance/
+config/settings/local.py # If you have local settings
+
+# Cache and temporary files
+*.mo
+*.log
+*.bak
+*.dump
+*.~*
+
+# venv — virtual environment
+venv/
+env/
+.venv/
+
+# Static and media files (if generated)
+staticfiles/
+media/
+
+# Django compiled files
+*.pyc
+*.pyo
+
+.idea/
+.vscode/
+*.iml
+
+# Migrations from conflicts
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+
+# Docker and containers
+docker-compose.override.yml
